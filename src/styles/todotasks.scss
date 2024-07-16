@@ -1,0 +1,47 @@
+.task{
+    border: 3px solid dodgerblue;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+
+    p{
+        font-size: larger;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: dodgerblue;
+
+    }
+
+    button{
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        background-color: dodgerblue;
+        color: wheat;
+    }
+    
+
+}
+
+
+
+.task.in-progress {
+    background-color: red;
+    
+  }
+  
+  .task.complete {
+    background-color: green;
+  }
+
+  .info{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: wheat;
+  }

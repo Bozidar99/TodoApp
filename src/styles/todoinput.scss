@@ -1,0 +1,27 @@
+.todoinput {
+    align-items: center;
+    justify-content: center;
+    
+    display: flex;
+
+    &_input {
+        width: 50%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    &_button {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .task.in-progress {
+        background-color: lightblue;
+      }
+      
+      .task.complete {
+        background-color: lightgreen;
+      }
+}
